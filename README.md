@@ -45,18 +45,19 @@ An explanation of **Deutsch’s algorithm and code simulating it using qiskit**.
 
 ### Using nvviewer to view your Jupyter notebooks
 
-View the rendered scikit-learn notebook by clicking the nbviewer badge below:
+View the rendered scikit-learn notebook in static form by clicking the nbviewer badge below:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Walter64/EmergingTechnologies/blob/main/scikit-learn.ipynb)
 
-View the rendered scikit-learn notebook in static form by clicking the nbviewer badge below:
+View the rendered scikit-learn notebook in dynamic form by clicking the nbviewer badge below:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Walter64/EmergingTechnologies/HEAD?labpath=scikit-learn.ipynb)
 
-View the rendered quantum-deutshe notebook by clicking the nbviewer badge below:
+View the rendered quantum-deutshe notebook in static form by clicking the nbviewer badge below:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Walter64/EmergingTechnologies/blob/main/quantum-deutsch.ipynb)
 
-View the rendered quantum-deutshe notebook in dynamic form by clicking the nbviewer badge below:
+View the rendered quantum-deutshe notebook in dynamic form by clicking the binder badge below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Walter64/EmergingTechnologies/HEAD?labpath=quantum-deutsch.ipynb)
 

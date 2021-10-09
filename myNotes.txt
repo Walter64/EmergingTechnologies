@@ -1,0 +1,25 @@
+# edit mode
+click into cell
+press enter
+
+# command mode
+press esc key
+
+# run cell/compile
+press shift + enter
+
+# run multiple cells
+click into upper most desired cell
+press esc
+press shift + down arrow key to highlight desired cells
+press shift + enter to run 
+
+# add multiple cells
+click into a cell
+press esc
+click 'b' key to add cell
+
+# delete cell
+Press esc
+press 'd' key twice
+

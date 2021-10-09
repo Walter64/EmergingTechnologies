@@ -49,16 +49,24 @@ View the rendered scikit-learn notebook by clicking the nbviewer badge below:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Walter64/EmergingTechnologies/blob/main/scikit-learn.ipynb)
 
+View the rendered scikit-learn notebook in static form by clicking the nbviewer badge below:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Walter64/EmergingTechnologies/HEAD?labpath=scikit-learn.ipynb)
 
 View the rendered quantum-deutshe notebook by clicking the nbviewer badge below:
 
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Walter64/EmergingTechnologies/blob/main/quantum-deutsch.ipynb)
 
+View the rendered quantum-deutshe notebook in dynamic form by clicking the nbviewer badge below:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Walter64/EmergingTechnologies/HEAD?labpath=quantum-deutsch.ipynb)
+
 ### To run scikit-Learn Jupyter Notebook
+
 1. Download [Qiskit](https://qiskit.org/). ????
 2. Run 'juypter lab' from the cmder console - must be in project folder
 
 ### To run quantum-deutsche Jupyter Notebook
+
 1. Download []().
 2. Run 'juypter lab' from the cmder console - must be in project folder
 
@@ -68,13 +76,14 @@ You should also include any other required files, such as a requirements.txt fil
 <b />
 
 ### About Cmder
+
 Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.
 **_Reference_** [Cmder](https://cmder.net/)
 
 ## About nbviewer
 
-
 ### About nbviewer badge
+
 This is a svg image of a badge which, when surrounded by square brackets becomes a link to its corrosponding url.
 **_Reference_** [nbviewer](https://github.com/jupyter/nbviewer/issues/714)
 

@@ -1,0 +1,7 @@
+## requirements.txt
+# add qiskit
+
+## README
+# number of lines to correct spelling / markdown fixes
+# use README in github to make corrections
+

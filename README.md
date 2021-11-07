@@ -2,7 +2,7 @@
 
 ### Repository for Emerging Technologies Module
 
-### Author: Walter Regan, B.Sc.in Software Development
+### Author: Walter Regan
 
 ### Instructions
 

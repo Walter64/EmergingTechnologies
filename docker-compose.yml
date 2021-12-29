@@ -1,0 +1,18 @@
+# newest version for jupyter notebook
+# anounces just one service
+# builds from current folder's Dockerfile
+# port 8888 jupyter uses by default
+# mounts current folder to .:/home/jovyan/
+# sets env variable to yes, to make jupyter lab run
+version: "3.9"
+services:
+  web:
+    build: .
+    image: webapp:tag
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/repo
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes"

@@ -68,7 +68,7 @@ Cmder is a software package created out of pure frustration over the absence of 
 
 <br />
 
-## Create Docker image and run qunatum-deutsch.ipyb notebook through Docker
+## Create Docker image and run quantum-deutsch.ipyb notebook through Docker
 This can be done easier by using Visual Studio Code which you can open in your working folder as mentioned above. In the project create the files docker-compose, Dockerfile, requirements.txt.
 
 The **docker-compose** file is a tool for defining and running multi-container Docker applications. It allows you to configure your application’s services. Within this file you should have the newest version for jupyter notebook and you will just need one service here "web". The image is built from current folder's Dockerfile which is defined by the build tag "build ." The port that will be exposed is port 8888 which jupyter uses by default. Docker uses Volumnes as a way of persisting data which is generated and used by Docker containers and here the Volume mounts the current folder to .:/home/jovyan/repo. The environment variables are used to bring configuration data into your applications. This is often the case if you have some configurations that are dependent on the host operating system or some other variable things that can change. Set environmental variable to yes, to make jupyter lab run. Then using the command, "docker-compose up" you create and start all the services from your configuration.

@@ -1,5 +1,5 @@
 ## Emerging Technologies Module Repository
-***
+
 <br />
 
 ### Author: Walter Regan
@@ -12,6 +12,7 @@
 * About nbviewer badge
 * About Cmder
 * Create Docker image and running qunatum-deutsch.ipyb notebook through Docker
+* Comparison of Quantum Computing and Classical Computing
 * Scikit-Learn Notebook
 * Quantum-Deutsch Notebook
 
@@ -93,13 +94,52 @@ The **Dockerfile** file contains all the commands or instructions to assemble an
 
 The **requirements.txt** file manages the Python dependencies needed for the project in Docker. You simply add the name of the packages such as numpy, or qiskit[visualization] for example. When the image is being built python, in this case can get these packages and add them to the project.
 
+## Comparison of Quantum Computing and Classical Computing.
+
+**Quantum Computers**
+<br />
+
+Quantum computing is an emerging technology that may be far more powerful then classical computers at solving a number of complex problems in areas such as finance, cybersucurity, healthcare and more. It uses quantum mechanical phenomena of superposition and entanglement to process information.
+
+[What Is Quantum Computing? Definition, Industry Trends, & Benefits Explained](https://www.cbinsights.com/research/report/quantum-computing/)
+
+Quantum computers calculate using qubits which can represent 0 and 1 at the same time. Their power grows exponentially in proportion to the number of qubits linked together which gives them a distinct advantage over classical computers. They are well suited for tasks like optimization problems, data analysis, and simulations. On the negative end they have high error rates and need to be kept ultracold.
+
+Qubits are the basic units of information in a quantum computer and are essentially the same as a transisitor used in a classical computers. Qubits use superposition which is a quantum mechanical phenomenon is the ability of a quantum system to be in multiple states at the same time until it is measured. Like flipping a coin, while in the air it can be either heads or tails but when it lands it will be heads or tails (ignoring it landing on its side).
+
+[Quantum Computing Vs. Classical Computing In One Graphic](https://www.cbinsights.com/research/quantum-computing-classical-computing-comparison-infographic/)
+
+Entanglement is another qunatum phenomenon where entangled particle remain connected so that an action performed on one particle affects the other regardless of the distance. So if we measure a qubit output and it is a 1 then we know the the other qubit will be a 0. So by not taking andy measurements until needed to qubits can represent both binary 0 and 1 at the same time during the actual calculation.
+
+Einstein himself had difficulty with this as he stated nothing can go faster than the speed of light.
+
+[ASTROGEEKZ](https://astrogeekzco.com/2018/08/09/quantum-entanglement-explained-in-simple-words/)
+
+Quantum computing don't have memory or a processor, not do they have computing languages as such and researchers are developing algorithms that can provide solutions to problems.
+
+[Quantum Computing: How it differs from classical computing?](https://www.bbva.com/en/quantum-computing-how-it-differs-from-classical-computing/)
+
+**Classical Computers**
+<br />
+
+Classical or conventional computers calculate with transistors, which can represent either 0 or 1. Their power increases in a 1:1 relationship with the number of transistors. They have low error rates and can operate at room temperature. They are best suited to regualar day-to-day tasks.
+
+[Quantum Computing Vs. Classical Computing In One Graphic](https://www.cbinsights.com/research/quantum-computing-classical-computing-comparison-infographic/)
+
+They carry out logical operations using the definite position of a physical state, usually binary, meaning its operations are based on one of two positions. A single state - such as on or off, up or down, 1 or 0 - is called a bit.
+
+[How Do Quantum Computers Work?](https://www.sciencealert.com/quantum-computers)
+
+**An explanation of Deutsch’s algorithm**
+
+<br />
+
 ## Scikit-Learn Notebook
-Demonstrations of at least three interesting scikit-learn algorithms.
+* Contains the weekly tutorial exercises.
+* Demonstrations of at least three interesting scikit-learn algorithms. (not yet done)
 
 <br />
 
 ## Quantum-Deutsch Notebook
-A clear and concise comparison of Quantum Computing and Classical Computing.<br />
-An explanation of Deutsch’s algorithm and code simulating it using qiskit.
-
-<br />
+* Contains the weekly tutorial exercises.
+* An explanation of Deutsch’s algorithm code simulating it using qiskit. (not yet done)

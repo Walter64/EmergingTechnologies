@@ -132,6 +132,12 @@ They carry out logical operations using the definite position of a physical stat
 
 **An explanation of Deutsch’s algorithm**
 
+Deutsch-Jozsa algorithm was the first to show a separation between the quantum and classical difficulty of a problem. This algorithm demonstrates the significance of allowing quantum amplitudes to take both positive and negative values, as opposed to classical probabilities that are always non-negative.
+
+The Deutsch–Jozsa problem is specifically designed to be easy for a quantum algorithm and hard for any deterministic classical algorithm. The motivation is to show a black box problem that can be solved efficiently by a quantum computer with no error, whereas a deterministic classical computer would need a large number of queries to the black box to solve the problem.
+
+For the Deutsch–Jozsa algorithm to work, the oracle computing f(x) from x has to be a quantum oracle which doesn't decohere f(x). It also mustn't leave any copy of f(x) lying around at the end of the oracle call.
+
 <br />
 
 ## Scikit-Learn Notebook
@@ -142,4 +148,4 @@ They carry out logical operations using the definite position of a physical stat
 
 ## Quantum-Deutsch Notebook
 * Contains the weekly tutorial exercises.
-* An explanation of Deutsch’s algorithm code simulating it using qiskit. (not yet done)
+* An explanation of Deutsch’s algorithm code simulating it using qiskit.
